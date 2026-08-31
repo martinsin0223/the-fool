@@ -156,7 +156,9 @@ Roughly two categories.
 | Disco Elysium | 2019 | Your read on the protagonist rebuilds itself as information arrives. Scramble the order and the rebuilding doesn't happen |
 | INSIDE | 2016 | Not one line of dialogue in the whole game; the assembly is yours to do. Let someone assemble it for you and there's nothing left |
 
-The list will keep growing. If what you want to play isn't here, just give it the name — it'll work out whether there's a period to return to.
+This is just the front shelf. **The full list is in [GAMES.en.md](GAMES.en.md)** — forty-plus games, grouped by what the tool does for each: hands the year back to you, guards what you don't know, reads the text with you, series where knowledge flows backward — plus a few that look like perfect fits but really just need a plain "no spoilers." One line of reasoning per game, none of it touching plot.
+
+If your game is on neither list, just give it the name — it'll work out whether there's a period to return to.
 
 ---
 
