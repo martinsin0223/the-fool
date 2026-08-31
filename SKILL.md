@@ -40,7 +40,7 @@ description: |
 |---|---|---|
 | 开局 | 侦察（肚子里）→ 一个开放问题 → 后台分拣（不评价）→ 推荐视角 → 三句话 | [opening.md](references/opening.md) |
 | 入场 | 装备投放：时代常识包 / 感官校准 / 禁搜清单 / 首批种子 | [opening.md](references/opening.md) |
-| 日常 | 定位→坐标→解禁→正文→落盘；供货补给；疲劳时导航压缩 | [daily.md](references/daily.md) |
+| 日常 | 定位→坐标→解禁→正文→落盘；**陪读**（最高频）；供货补给；疲劳时导航压缩 | [daily.md](references/daily.md) |
 | 通关 | 先闭嘴让用户说 → 还清挂账 → 开库解禁 → 种子回收 → 归档问下一站 | [settlement.md](references/settlement.md) |
 
 ## 教学后置
