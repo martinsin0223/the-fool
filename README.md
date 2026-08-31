@@ -1,166 +1,168 @@
 <div align="center">
 
-**English** · [简体中文](README.zh-CN.md)
+[English](README.en.md) · **简体中文**
 
 </div>
 
-# The Fool
+![The Fool](assets/banner.png)
 
-**An agent skill for playing old games. It hands you what the original audience had, and it won't spoil the rest.**
+**一个让 AI 陪你玩老游戏的工具。它把当年玩家脑子里的东西还给你，顺便不剧透。**
 
----
-
-## What it does
-
-### 1. It equips you as a player from that year
-
-This is the main job.
-
-Half the reason old games feel unplayable isn't the game. It's that you're missing everything the original audience got for free: what those graphics counted as at the time, what everyone was waiting to see, which questions the previous installment had left hanging, which controls were simply normal back then.
-
-The important part is **the open questions**. In June 2008, the entire audience was arguing about what was really going on with Ocelot's arm and who was on the list of twelve. Today you can settle either one in three seconds, so those questions never spend a single day alive in your head.
-
-It goes and digs through period forums, magazine previews and the reaction to the trailers, then puts those questions back where they belong. This part runs on actual retrieval, not on the model's memory. If it can't find anything, it says so instead of inventing a past.
-
-### 2. It doesn't volunteer spoilers
-
-Note the word *volunteer*. It will never bring up what's ahead on its own, but it answers what you ask: keep this item or sell it, is this section skippable, I'm stuck and don't know where to go. Those get straight answers.
-
-When you ask something that would genuinely change the experience, it doesn't decide for you. It asks first: *"Telling you this will affect how the rest lands. Want it?"* Say yes and you get it. Say no and only then does it write the question down, to be answered in full when you finish.
-
-### 3. It talks you through what's in front of you
-
-Halfway in you want someone to talk to. What did that conversation mean, I can't read this character, what is this game actually about — just ask.
-
-The rule it follows: **it only reasons from what you've already seen.** It will not explain the present using something from later. If you can't make sense of a scene yet, it tells you that not making sense yet is the point, and thinks it through with you from there.
-
-Text-heavy games benefit most. Something like *Disco Elysium*, where you're stuck on one dialogue tree drowning in concepts and references, and nobody around you is on the same page at the same time.
-
-It also won't hand you conclusions. Whatever you end up understanding has to be yours.
-
-**Getting started is one sentence**: tell it *"I want to play Bloodborne."* It asks you one question, then you're off. After that, just say where you've gotten to each time you come back.
-
-**The day you finish**, every question it held back comes due at once. Reviews, arguments and letters from the year it launched all unlock in the same moment, and you get the vantage point only someone who walked the whole way can have: watching the people from back then be confused, while you have the answers in your pocket.
-
-## Why you'd need it
-
-**Because you can't search your way back to "back then."**
-
-Search engines rank by relevance, not by date. Look up any old game and you get retrospectives, explainers and tenth-anniversary pieces — all written by people who already knew the ending. **You cannot search for the air of a particular month in 2008.**
-
-Getting to the real thing means pulling period snapshots out of the Wayback Machine, digging through GameFAQs threads from that year, and constraining every query to before the release date. It's manual labor, and you get spoiled while doing it.
-
-The spoiler side is its own problem: you look up a control scheme and the third result's title has the ending in it; you ask a friend and he says "I won't spoil anything" and then does; a wiki page spoils you from the page title before you've clicked.
-
-The classic you've been meaning to play — you already know how it ends. Not because you wanted to. It just drifted into you. By the time you finally sit down, you're not experiencing it, you're checking answers.
-
-This puts you back on the day you didn't know.
+![用法示例](assets/demo-zh.png)
 
 ---
 
-## Why "The Fool"
+## 它干什么
 
-Card 0 of the tarot. A figure with a bundle over one shoulder, head tilted to the sky, one foot already over the edge of a cliff, entirely unaware.
+**一，把你装备成当年的玩家。**
 
-That's a player who hasn't been spoiled. No idea whether there's a road or a hole up ahead, walks out anyway.
+这是它的主业。
 
-The Fool is numbered zero, which puts it outside the sequence — it sits *before* the whole deck. So the name isn't only about not knowing. It's about being put back to the position before the starting point.
+老游戏玩不下去，一半原因不在游戏身上，是你缺了当年玩家白送的东西：那年的画面算什么水平、发售前所有人在等什么、上一部留下了哪些没解决的问题、哪些操作在那个年代属于常识。
 
----
+最要紧的是**当年的悬念**。2008 年 6 月，全世界都在猜山猫的手臂到底怎么回事、十二人名单是谁。今天你搜任何一条，三秒钟拿到结论，于是那些问题从来没在你脑子里活过一天。
 
-## What it looks like
+它去挖当年的论坛、杂志前瞻、预告片反响，然后把那些问题装回你脑子里。这部分它会实际联网检索，不靠记忆瞎编——查不到就直说查不到。
 
-Three moments from a single playthrough.
+**二，不主动剧透。**
 
-### Opening
+注意是"不主动"。它自己绝不往外倒后面的剧情，但你问什么它都接得住：这道具留不留、这段能不能跳、我卡住了往哪走，直接答。
 
-> **You**: I want to play Bloodborne
->
-> **It**: Bloodborne, 2015. Good pick. Give me a minute to go read up on it.
->
-> *(it goes and searches; you see none of it)*
->
-> **It**: Done. One thing before you start — have you run into anything about this game already? Something a friend said, a clip you scrolled past, a meme, whatever. Just dump it. And have you played any of the others in this vein?
->
-> **You**: Played Sekiro. All I know is it's hard, and something about cosmic horror? I think it changes a lot later on?
->
-> **It**: Right.
-> Here's how we'll do it: you're a person in March 2015, when the entire world assumed this was Dark Souls with a fresh coat of paint. That misunderstanding is worth a lot.
-> Three things. I won't bring up what's ahead. You can ask me anything — if I can answer I will, and if I can't I'll write it down and settle up when you finish. And each time you come back, tell me where you've gotten to.
-> Two things for the road. One: don't search any character name together with the word "ending." That one detonates. Two: the frustration in the opening hour is deliberate. It isn't you.
-> Go.
+碰上真会改变体验的问题，它不替你决定，先问一句"这个说了会影响你后面的体验，要听吗"。你说要就给，你说不要它才记下来，打完还你，一笔不落。
 
-Watch what it didn't do. **Your line about "it changes a lot later on" — it didn't touch it.** Didn't say you were right, didn't say you were wrong, didn't reassure you that "the good stuff is still intact" either. That kind of reassurance is itself a leak: it tells you something bigger is being kept. It said "Right" and moved on.
+**三，陪你聊现在。**
 
-It also didn't correct anything you might have misremembered. You walk in carrying something you heard secondhand, and the game itself overturns it. That moment belongs to you.
+打到一半想找人说话。刚才那段对话什么意思、这个角色我看不懂、这游戏到底在干什么，直接问。
 
-Thirty seconds, one question answered, and you set off carrying less than you arrived with.
+它只用你已经看到的东西跟你聊，不拿后面的剧情解释前面。你现在读不懂的地方，它会说"现在读不懂是正常的"，然后陪你想。
 
-### Mid-game
+文本量大的游戏最吃这个。极乐迪斯科那种满屏的概念和典故，你卡在一段对话上想聊两句，身边偏偏没有正在玩同一段的人。
 
-> *(three hours later)*
->
-> **You**: Hold on, why is everything turning into this? It looks nothing like where I started
->
-> **It**: Telling you this will affect how the rest of it lands. Want it?
->
-> **You**: ...nah, hang on to it.
->
-> **It**: Written down, you'll get it when you're done.
-> By the way, if this line ever feels too tight or too loose, just say so.
+它也不替你下结论。
 
-It didn't decide for you. **And it won't say "there's a huge secret here"** — that's as bad as spoiling, because it's already told you how big the thing is. It only says *this will affect*, never *this is big*.
+**用起来就一句话**：跟它说"我想玩血源诅咒"。它问你一个问题，你就能开了。之后每次回来说一声打到哪了。
 
-Answer "just tell me" and it tells you, without a word of argument. The rules are yours.
+**打完那天**，你一路上问过、被扣下的答案会一次性还给你。当年发售后的评测、吵架、读者来信，也在那一刻整个解锁。你会拿到一个走完全程的人才有的视角：看着当年的人困惑，而你手里有答案。
 
-### Finishing
+## 为什么需要它
 
-> *(three weeks later)*
->
-> **You**: Finished it
->
-> **It**: Tell me about it first?
->
-> **You**: ...(you say a lot)
->
-> **It**: Alright, let me settle up. Three weeks ago you asked why everything turns into that — here's the answer: (...)
-> Also, everything people fought about after this thing launched is now open to you. Want it?
+**因为你自己搜不到"当年"。**
 
-This is the whole reason it exists. Everything held back has a stated date of return. **A tool that raises a question and never answers it is worse than one that just spoils you.**
+搜索引擎是按相关度排的，不是按时间排的。你搜任何一部老游戏，返回的全是后来的复盘、解析、十周年回顾——那些文章带着答案写成，作者已经知道结局了。**你搜不到 2008 年 6 月那天的空气。**
+
+要挖到当年，得会用 Wayback Machine 翻当年的页面、得知道去 GameFAQs 找那年的帖子、得把搜索词限定在发售之前。这是一份苦力活，而且你一边挖一边就被剧透了。
+
+防剧透那部分则是另一回事：查个按键，搜索结果第三条标题就带着结局；问朋友一句，他说"我不剧透啊"然后就剧透了；攻略站的页面标题本身就是剧透，你点进去才知道晚了。
+
+你想玩的那部经典，其实你已经知道结局了。不是你想知道的，是它自己漂进来的。等你终于坐下来玩，你不是在体验它，你是在核对答案。
+
+这东西把你放回不知道的那一天。
 
 ---
 
-## Which games are worth this
+## 为什么叫愚者
 
-Not all of them. Rebuild the perfect information environment around a game with nothing to say and nothing happens.
+塔罗的 0 号牌。牌面上是一个人背着行囊、抬头望天，一只脚已经踏出悬崖边缘，浑然不觉。
 
-Roughly two categories.
+那就是没被剧透的玩家的样子。不知道前面是路还是坑，照样走出去。
 
-**Games with a period.** These get the full treatment: it holds back what's ahead, and hands you what the audience of that year had.
+愚者是 0 号，它不在序列里，它在整副牌**之前**。所以这名字说的不只是你不知道，是你被放回了起点之前的位置。
 
-| Game | Year | Why it's worth playing this way |
+---
+
+## 它长什么样
+
+同一局游戏的三个时刻。
+
+### 开局
+
+> **你**：我想玩血源诅咒
+>
+> **它**：血源，2015 年的，好东西。我去把它摸一遍，一分钟。
+>
+> *（它自己查了一轮，你什么都没看到）*
+>
+> **它**：好了。开之前问你一件事：这游戏你之前刷到过什么没？朋友提过的、视频里瞟到一眼的，梗也算，随便倒。魂系别的作品碰过吗？
+>
+> **你**：玩过只狼。血源就知道很难，还有什么克苏鲁？好像后期会变得很不一样？
+>
+> **它**：行。
+> 那咱这么玩：你就当自己是 2015 年 3 月的人，那会儿全世界都以为这就是个换皮黑魂，这个误会很值钱。
+> 说好三件事：后面有什么我不说；你什么都能问，能答的我直接答，不能答的我记着，打完还你；每次回来先说一声打到哪了。
+> 进去前给你两样。一，别搜任何角色名加 ending，搜必炸。二，开场那段挫败是设计的一部分，不是你手残。
+> 开吧。
+
+留意它没干的事。你那句"好像后期会变得很不一样"，它一个字都没接。没说你猜对，没说你猜错，也没夸一句"最重要的都没漏"。那种话听着像安慰，其实是在告诉你还有更值钱的东西藏着。它只回了个"行"。
+
+它也没纠正你可能记错的地方。你带着一个道听途说的印象进去，被游戏本身推翻，那个瞬间是你的。
+
+三十秒，你回答了一个问题，然后带着比进来时更少的东西上路。
+
+### 中途
+
+> *（三小时后）*
+>
+> **你**：等一下，为什么这里的东西会变成这样？跟我一开始看到的完全不一样了
+>
+> **它**：这个说了会影响你后面的体验。要听吗？
+>
+> **你**：……算了，你记着吧。
+>
+> **它**：记下了，打完还你。
+> 对了，这条线你要是觉得松紧不对，随时能调。
+
+它没有替你决定。**它也不会说"这里有个惊天大秘密"**——那句话跟直接剧透一样坏，因为它已经告诉你那儿有个多大的东西。它只说"会影响"，不说"有多大"。
+
+你要是回答"说吧"，它就直接说了，一个字不劝。规矩是你的。
+
+### 通关
+
+> *（三周后）*
+>
+> **你**：打完了
+>
+> **它**：先说说？
+>
+> **你**：……（你说了很多）
+>
+> **它**：那我把欠你的还了。三周前你问过为什么这里的东西会变成这样，现在能说了：（……）
+> 另外，当年发售之后吵翻天的那些评论和争论，现在整个对你解锁了。要吗？
+
+这是它存在的理由。所有被扣下的东西都有明确的归还时间。一个立了扣子不兑现的工具，比一个直接剧透的工具更坏。
+
+---
+
+## 什么游戏值得这么玩
+
+不是所有游戏都需要。一个没有表达的游戏，你把信息环境重建得再完美，也不会发生任何事。
+
+值得的大致两类。
+
+**有年代的作品。** 能吃到全套：既挡住你不该提前知道的，也把当年玩家拥有的东西喂给你。
+
+| 游戏 | 年份 | 为什么值得这么玩 |
 |---|---|---|
-| Silent Hill 2 | 2001 | Its center is an understanding you have to walk into yourself. Hand over the conclusion and the walk is empty |
-| The Legend of Zelda: Ocarina of Time | 1998 | It defined the grammar of 3D adventure games, and that grammar is now air. You have to stand in the year it was new to see why it detonated |
-| Final Fantasy VII | 1997 | It landed on the industry's hinge. Not knowing what came after is how you feel what people were losing their minds about |
-| Metal Gear Solid 3 | 2004 | Its ending asks to hit you while you're defenseless. Know it's coming and the punch lands on nothing |
+| 寂静岭 2 | 2001 | 核心是一个必须你自己走完才成立的理解。提前拿到结论，过程就空了 |
+| 塞尔达传说 时之笛 | 1998 | 它定义了 3D 冒险游戏的语法，而那些语法今天已经是空气。回到它还是新事物的那年，才知道当年为什么会炸 |
+| 最终幻想 7 | 1997 | 它撞上了整个行业的转折点。不知道后来发生了什么，才能感受到当时的人在为什么激动 |
+| 合金装备 3 | 2004 | 它的结局要你在毫无防备时被击中。知道会发生什么，那一击就落空了 |
 
-**Games that spoil dead.** Not necessarily old, but one spoiler is permanent loss. These mostly use the gatekeeping half.
+**剧透即毁的作品。** 不一定老，但被剧透一次就永久损失。这类主要用守门那一半。
 
-| Game | Year | Why it's worth playing this way |
+| 游戏 | 年份 | 为什么值得这么玩 |
 |---|---|---|
-| Outer Wilds | 2019 | Your only progress bar is what you know. Whatever gets spoiled is gone for good; replaying won't get it back |
-| Undertale | 2015 | The entire design assumes this is your first time. Any preparation makes it stop working on you |
-| Disco Elysium | 2019 | Your read on the protagonist rebuilds itself as information arrives. Scramble the order and the rebuilding doesn't happen |
-| INSIDE | 2016 | Not one line of dialogue in the whole game; the assembly is yours to do. Let someone assemble it for you and there's nothing left |
+| Outer Wilds | 2019 | 唯一的进度条是你的认知。被剧透的那部分会永久消失，重玩也找不回来 |
+| Undertale | 2015 | 整个设计假设你是第一次见它。任何形式的预习都会让它对你失效 |
+| 极乐迪斯科 | 2019 | 你对主角的判断随信息一点点重建。顺序被打乱，重建就不成立了 |
+| INSIDE | 2016 | 全程无一句台词，理解全靠你自己拼。别人替你拼好了，就没有可拼的了 |
 
-The list will keep growing. If what you want to play isn't here, just give it the name — it'll work out whether there's a period to return to.
+清单会继续长。你想玩的不在上面也没关系，直接把游戏名报给它，它会自己判断有没有当年可回。
 
 ---
 
-## Install
+## 安装
 
-You'll need an environment that supports Agent Skills.
+需要一个支持 Agent Skills 的环境。
 
 **Claude Code**
 
@@ -174,76 +176,72 @@ git clone https://github.com/martinsin0223/the-fool ~/.claude/skills/the-fool
 git clone https://github.com/martinsin0223/the-fool ~/.agents/skills/the-fool
 ```
 
-**Anywhere else**: it's fundamentally a behavioral contract. Paste `SKILL.md` to your assistant and it runs, just with weaker memory across sessions.
+**其他环境**：它本质上是一份行为约定，把 `SKILL.md` 整个贴给你的 AI 也能跑，只是跨会话记忆会弱一些。
 
-To update, `git pull` in that directory.
+更新：进到目录里 `git pull`。
 
-> **A note on language.** The skill's instructions are written in Chinese, because that's where it came from. That's for the model to read, not for you — it's told to answer in whatever language you write in, and to keep its notes in that language too. Ask in English and you'll be answered in English.
-
-**It needs web search.** The whole "back then" half depends on live retrieval, so it needs an environment where the model can actually search. Without that it will tell you so up front and fall back to spoiler-blocking only, rather than inventing a past from memory.
+**它需要联网搜索能力。** "回到当年"这半边完全依赖实时检索——当年的论坛、杂志前瞻、预告片反响，这些东西必须真的去查。如果你的环境没法联网，它会在开局就告诉你，然后退回到只做防剧透，而不是凭记忆给你编一个当年。
 
 ---
 
-## Usage
+## 怎么用
 
-Open a conversation and say:
+开个对话，说一句：
 
-> I want to play Bloodborne
+> 我想玩血源诅咒
 
-It'll ask you the rest. Each time you come back, say where you've gotten to.
+剩下的它会问你。之后每次回来，说一声打到哪了。
 
-New device, new window, three weeks later — say "let's keep going with Bloodborne" and it picks up. The agreements and everything owed to you are still there.
-
----
-
-## What it can't do
-
-**It makes mistakes.** It's a language model, not a filter. It will try, but nothing here guarantees a perfect record. Your own restraint is still doing most of the work. It can keep its own mouth shut; it can't do anything about your browser.
-
-**It can't manufacture motivation.** If you don't actually want to go back and play the thing, this won't help. It serves people who feel they missed something and want it back.
-
-**Obscure games may have no recoverable past.** Some games were quiet when they launched. It'll tell you that half is thin and do spoiler-blocking only. It will not invent "what everyone was speculating about back then" — it would rather admit there's nothing than hand you something false.
-
-**It's wasted on games with nothing to say.** A game that's merely fun doesn't need this much ceremony.
+换设备、开新窗口、隔了三周，说"继续玩血源"就能接上。约定和欠你的账都还在。
 
 ---
 
-## About this thing
+## 它做不到的事
 
-It isn't perfect and I'm not going to pretend otherwise.
+**它会犯错。** 它是个语言模型，不是滤网。它会尽全力守住，但没有任何机制能保证百分之百不漏。你自己那份克制仍然是主力。它管得住自己的嘴，管不住你的浏览器。
 
-It grew out of one real playthrough, then got reviewed end to end by an AI that had never seen it. That review turned up about twenty problems, several of them outright contradictions: one file said "never describe how big the hidden thing is" while another file held up "this is a big one" as a correct example. Those got fixed. The ones nobody found are still in there.
+**它造不出动机。** 你要是其实并不想补这个游戏，它帮不了你。它服务的是"我错过了它，我想拿回来"的那种人。
 
-Gatekeeping has no second chance. One leak is one experience you don't get back.
+**冷门游戏可能挖不到当年的东西。** 有些游戏当年就没什么声量，它会直接告诉你这块很薄，然后只做防剧透。它不会编"当年玩家都在猜什么"。宁可承认没有，也不给你假的。
 
-So, two requests.
-
-**Don't treat it as a vault.** Your own restraint is still the main line of defense.
-
-**Yell at it when it gets things wrong.** Too tight (everything you ask gets written down instead of answered), or it leaked, or it starts talking like customer support — tell it. The rules belong to you and it has to listen. If you think the thing itself should change, open an issue.
-
-It's closer to a spoken agreement than a piece of software. How much an agreement is worth depends on both sides.
+**它不适合没有表达的游戏。** 一个只是好玩的游戏，用不着这么伺候。
 
 ---
 
-## Your data
+## 关于这东西本身
 
-Everything lives on your own machine:
+它不完美，我也不打算假装它完美。
+
+它从一次真实的游玩里长出来，然后被一个不认识它的 AI 从头审了一遍。那轮审查挖出二十来个问题，其中好几个是自相矛盾：它一边写着"不许形容藏了多大的东西"，一边在另一个文件里把"这笔账挺大"当成正确示范。这些改掉了，没被发现的肯定还有。
+
+守门这件事没有下次改进的机会。它漏一次，你就少了一次。
+
+所以两件事想请你做。
+
+**别把它当保险箱。** 你自己那份克制仍然是主力。
+
+**它做错了就当场骂它。** 挡太死了（你问什么都被记账）、说漏了、或者开始像客服一样说套话，直接告诉它。规矩是你的，你随时能改，它必须听。真觉得这东西该改，也欢迎来 issue 里说。
+
+它更像一份口头约定，不像一个软件。约定靠不靠得住，取决于双方。
+
+---
+
+## 你的数据
+
+所有记录都在你自己机器上：
 
 ```
-~/.the-fool/<game>/state.md
+~/.the-fool/<游戏名>/state.md
 ```
 
-Plain text, open it whenever you like. Claude and Codex share the same file, so switching tools doesn't lose your place.
+纯文本，随时打开看。Claude 和 Codex 共用同一份，换工具接着玩不丢档。
 
-The file is written to be spoiler-free: it records the questions you asked and when they come due, never the answers. **Reading your own notes can't hurt you.**
+档案本身是零剧透的。它只记你问过什么问题、什么时候还，不记答案。翻自己的档案不会炸伤自己。
 
-Delete the folder when you're done with a game.
+不打算再玩的时候，删掉那个文件夹就行。
 
 ---
 
-## License
+一个游戏年龄≈真实年龄的电子游戏老婆罗门 做的。
 
-MIT. Take it, change it, make your own version. No need to ask.
-
-By a games snob whose gaming age ≈ his actual age.
+拿去改，做成你自己的版本，不用问我。[MIT License](LICENSE)
