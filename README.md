@@ -189,3 +189,9 @@ git clone https://github.com/martinsin0223/the-fool ~/.agents/skills/the-fool
 档案本身是零剧透设计的——它只记你问过什么问题、什么时候还，不记答案。**翻自己的档案不会炸伤自己。**
 
 不打算再玩的时候，删掉那个文件夹即可。
+
+---
+
+一个游戏年龄≈真实年龄的电子游戏老婆罗门 做的。
+
+拿去改，做成你自己的版本，不用问我。[MIT License](LICENSE)
