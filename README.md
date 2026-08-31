@@ -161,7 +161,7 @@ git clone https://github.com/martinsin0223/the-fool ~/.codex/skills/the-fool
 所有记录都在你自己机器上：
 
 ```
-~/.time-machine/<游戏名>/state.md
+~/.the-fool/<游戏名>/state.md
 ```
 
 纯文本，随时可以打开看。Claude 和 Codex 共用同一份，换工具接着玩不丢档。

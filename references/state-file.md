@@ -5,11 +5,11 @@
 ## 存放位置
 
 ```
-~/.time-machine/<game-slug>/state.md     # 档案本体
-~/.time-machine/<game-slug>/vault/       # 可选：已确认安全的当年材料落地
+~/.the-fool/<game-slug>/state.md     # 档案本体
+~/.the-fool/<game-slug>/vault/       # 可选：已确认安全的当年材料落地
 ```
 
-路径与宿主无关：Claude Code、Codex 等任何环境都用同一个家，换工具接着玩不丢档。`<game-slug>` 用游戏名的小写拼音或英文短名（如 `bloodborne`、`xianjian1`）。用户提到新游戏时先 `ls ~/.time-machine/` 检查是否已有档案——**宁可多查一次，不可凭记忆断定没有**。
+路径与宿主无关：Claude Code、Codex 等任何环境都用同一个家，换工具接着玩不丢档。`<game-slug>` 用游戏名的小写拼音或英文短名（如 `bloodborne`、`xianjian1`）。用户提到新游戏时先 `ls ~/.the-fool/` 检查是否已有档案——**宁可多查一次，不可凭记忆断定没有**。
 
 ## 两条文件级原则
 
@@ -36,14 +36,14 @@
 
 开局立约成功后，往用户级持久记忆写一条（用所在环境的 memory 机制；没有的话写进用户级 CLAUDE.md / AGENTS.md 等会被每次加载的文件；都没有则跳过——档案本身仍是主保险）：
 
-> 该用户有进行中的时间领域：《游戏名》。任何涉及此游戏的对话，必须先读 ~/.time-machine/<slug>/state.md 再说话，剧透纪律以档案为准。
+> 该用户有进行中的愚者档案：《游戏名》。任何涉及此游戏的对话，必须先读 ~/.the-fool/<slug>/state.md 再说话，剧透纪律以档案为准。
 
 游戏归档后删除这条钩子。
 
 ## state.md 模板
 
 ```markdown
-# 时间领域档案：《游戏名》
+# 愚者档案：《游戏名》
 
 ## 契约
 - 游戏：全名（平台 / 首发年份）

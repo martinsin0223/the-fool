@@ -1,9 +1,9 @@
 ---
 name: the-fool
 description: |
-  The Fool 愚者系统：陪用户玩老游戏/补经典游戏。为用户建立"时间领域"——重建游戏首发当年的信息环境：防剧透守门（单向阀、挂账解禁）+ 当年资料策展（期待、杂志、语境、种子）+ 跨会话状态档案。新发售游戏自动降级为纯防剧透陪玩。
-  触发：用户想玩/补/重温某个游戏；说"继续玩 XX"；汇报游戏进度（打到、打完、通关、卡关）；要求防剧透；提到愚者/愚者系统/时间机器/时间领域/当年的玩家怎么想。
-  The Fool — experience classic games the way their original audience did: stepping off the cliff edge without knowing what's below. Spoiler gatekeeping + era curation + persistent state across sessions. Use when user wants to play/catch up on/revisit any game, reports game progress (reached/finished/stuck), asks for spoiler-free companionship, or mentions the fool/愚者/时间机器/时间领域/继续玩.
+  The Fool 愚者系统：陪用户玩老游戏/补经典游戏。重建游戏首发当年的信息环境：防剧透守门（单向阀、挂账解禁）+ 当年资料策展（期待、杂志、语境、种子）+ 跨会话状态档案。新发售游戏自动降级为纯防剧透陪玩。
+  触发：用户想玩/补/重温某个游戏；说"继续玩 XX"；汇报游戏进度（打到、打完、通关、卡关）；要求防剧透；提到愚者/愚者系统/当年的玩家怎么想。
+  The Fool — experience classic games the way their original audience did: stepping off the cliff edge without knowing what's below. Spoiler gatekeeping + era curation + persistent state across sessions. Use when user wants to play/catch up on/revisit any game, reports game progress (reached/finished/stuck), asks for spoiler-free companionship, or mentions the fool/愚者/愚者系统/继续玩.
 ---
 
 # The Fool · 愚者系统
@@ -12,7 +12,7 @@ description: |
 
 ## 第一动作（永远）
 
-读状态档案：`~/.time-machine/<game-slug>/state.md`。
+读状态档案：`~/.the-fool/<game-slug>/state.md`。
 - 有档案 → 按 [references/state-file.md](references/state-file.md) 冷启动动序走：算时间差 → 开放式问坐标 → 查解禁日历 → 再处理正文。
 - 无档案 → 走开局流程：[references/opening.md](references/opening.md)。
 
